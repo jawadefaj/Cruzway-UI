@@ -1,7 +1,8 @@
 {
 	"files.exclude": {
-		"/Users/sabita/Documents/Unreal Projects/Calculator/Content": true,
-		"/Users/sabita/Documents/Unreal Projects/Calculator/.vscode": true,
-		"/Users/sabita/Documents/Unreal Projects/Calculator/Intermediate": true
+		"/Users/sabita/Downloads/ruru/Cruzway-UI/Calculator/Saved": true,
+		"/Users/sabita/Downloads/ruru/Cruzway-UI/Calculator/Content": true,
+		"/Users/sabita/Downloads/ruru/Cruzway-UI/Calculator/.vscode": true,
+		"/Users/sabita/Downloads/ruru/Cruzway-UI/Calculator/Intermediate": true
 	}
 }
