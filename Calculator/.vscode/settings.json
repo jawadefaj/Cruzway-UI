@@ -1,0 +1,9 @@
+{
+	"files.exclude": {
+		"/Users/margaretpeterson/Desktop/Cruzway-UI/Calculator/.vscode": true,
+		"/Users/margaretpeterson/Desktop/Cruzway-UI/Calculator/Calculator.xcworkspace": true,
+		"/Users/margaretpeterson/Desktop/Cruzway-UI/Calculator/Content": true,
+		"/Users/margaretpeterson/Desktop/Cruzway-UI/Calculator/Intermediate": true,
+		"/Users/margaretpeterson/Desktop/Cruzway-UI/Calculator/Saved": true
+	}
+}
