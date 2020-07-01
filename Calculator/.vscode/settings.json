@@ -1,0 +1,7 @@
+{
+	"files.exclude": {
+		"/Users/sabita/Documents/Unreal Projects/Calculator/Content": true,
+		"/Users/sabita/Documents/Unreal Projects/Calculator/.vscode": true,
+		"/Users/sabita/Documents/Unreal Projects/Calculator/Intermediate": true
+	}
+}

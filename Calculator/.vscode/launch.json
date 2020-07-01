@@ -1,0 +1,104 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Calculator (Debug)",
+			"request": "launch",
+			"preLaunchTask": "Calculator Mac Debug Build",
+			"program": "/Users/sabita/Documents/Unreal Projects/Calculator/Binaries/Mac/Calculator-Mac-Debug.app/Contents/MacOS/Calculator-Mac-Debug",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.22",
+			"type": "lldb"
+		},
+		{
+			"name": "Calculator (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "Calculator Mac DebugGame Build",
+			"program": "/Users/sabita/Documents/Unreal Projects/Calculator/Binaries/Mac/Calculator-Mac-DebugGame.app/Contents/MacOS/Calculator-Mac-DebugGame",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.22",
+			"type": "lldb"
+		},
+		{
+			"name": "Calculator (Development)",
+			"request": "launch",
+			"preLaunchTask": "Calculator Mac Development Build",
+			"program": "/Users/sabita/Documents/Unreal Projects/Calculator/Binaries/Mac/Calculator.app/Contents/MacOS/Calculator",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.22",
+			"type": "lldb"
+		},
+		{
+			"name": "Calculator (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "Calculator Mac Shipping Build",
+			"program": "/Users/sabita/Documents/Unreal Projects/Calculator/Binaries/Mac/Calculator-Mac-Shipping.app/Contents/MacOS/Calculator-Mac-Shipping",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.22",
+			"type": "lldb"
+		},
+		{
+			"name": "Calculator (Test)",
+			"request": "launch",
+			"preLaunchTask": "Calculator Mac Test Build",
+			"program": "/Users/sabita/Documents/Unreal Projects/Calculator/Binaries/Mac/Calculator-Mac-Test.app/Contents/MacOS/Calculator-Mac-Test",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.22",
+			"type": "lldb"
+		},
+		{
+			"name": "CalculatorEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "CalculatorEditor Mac Debug Build",
+			"program": "/Users/Shared/Epic Games/UE_4.22/Engine/Binaries/Mac/UE4Editor-Mac-Debug.app/Contents/MacOS/UE4Editor-Mac-Debug",
+			"args": [
+				"/Users/sabita/Documents/Unreal Projects/Calculator/Calculator.uproject"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.22",
+			"type": "lldb"
+		},
+		{
+			"name": "CalculatorEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "CalculatorEditor Mac DebugGame Build",
+			"program": "/Users/Shared/Epic Games/UE_4.22/Engine/Binaries/Mac/UE4Editor.app/Contents/MacOS/UE4Editor",
+			"args": [
+				"/Users/sabita/Documents/Unreal Projects/Calculator/Calculator.uproject"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.22",
+			"type": "lldb"
+		},
+		{
+			"name": "CalculatorEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "CalculatorEditor Mac Development Build",
+			"program": "/Users/Shared/Epic Games/UE_4.22/Engine/Binaries/Mac/UE4Editor.app/Contents/MacOS/UE4Editor",
+			"args": [
+				"/Users/sabita/Documents/Unreal Projects/Calculator/Calculator.uproject"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.22",
+			"type": "lldb"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "mono",
+			"request": "launch",
+			"program": "/Users/Shared/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe",
+			"console": "internalConsole",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"/Users/sabita/Documents/Unreal Projects/Calculator/Calculator.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "/Users/Shared/Epic Games/UE_4.22"
+		}
+	]
+}
