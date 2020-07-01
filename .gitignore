@@ -20,3 +20,4 @@
 *.pdb
 Calculator/Intermediate/*
 Calculator/Saved/*
+Calculator/Binaries/*
