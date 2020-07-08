@@ -2,7 +2,7 @@
 Maggie Peterson
 
 ## UI
-![calc](https://github.com/jawadefaj/Cruzway-UI/tree/maggie-calc-plugin/images/calcui.png)
+![calc](https://github.com/jawadefaj/Cruzway-UI/blob/maggie-calc-plugin/images/calcui.png)
 
 ### How to Use
 To use the calculator, type a number into the two text boxes and use the dropdown menu to select an operation (addition, subtraction, <br />
@@ -14,7 +14,7 @@ This calculator was made as an Editor Utiliity Widget which can be used to add n
 created using a combo box, and the numbers are displayed in editable textboxes. <br />
 Below is the blueprint for this widget:
 
-![calc](https://github.com/jawadefaj/Cruzway-UI/tree/maggie-calc-plugin/images/blueprint.png)
+![calc](https://github.com/jawadefaj/Cruzway-UI/blob/maggie-calc-plugin/images/blueprint.png)
 
 ## Plugins
 Plugins allow users to reuse functionalities in other Unreal Engine projects easily without having to copy over code. To use the Calculator Widget <break>
