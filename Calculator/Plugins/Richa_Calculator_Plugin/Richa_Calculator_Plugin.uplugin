@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 2.2,
+	"VersionName": "2.2",
+	"FriendlyName": "Richa_Calculator_Plugin",
+	"Description": "Calculator Plugin",
+	"Category": "Other",
+	"CreatedBy": "Richa B",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "Richa_Calculator_Plugin",
+			"Type": "Runtime",
+			"LoadingPhase": "PreLoadingScreen"
+		}
+	]
+}

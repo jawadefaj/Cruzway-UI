@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Calculator_plugin",
+	"Description": "Calculator_plugin",
+	"Category": "Other",
+	"CreatedBy": "Richa",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "Calculator_plugin",
+			"Type": "Runtime",
+			"LoadingPhase": "PostEngineInit"
+		}
+	]
+}
