@@ -5,7 +5,8 @@ This calculator was made as an Editor Utility Widget in Unreal Engine 4.22.3. It
 
 ## How It Works
 ![calcui](https://github.com/jawadefaj/Cruzway-UI/blob/richa/images/calcui.jpeg)
-Pictured above is the UI for the calculator. It is comprised of three textboxes, one dropdown menu, and one button. The first two textboxes take user input in the form of integers. The dropdown menu (called a ComboBox in UE4) is in between these two text boxes and allows the user to chose one of four mathematical operations to perform on the two numbers. Next, there is a button with an equal sign. When clicked, the answer is displayed on the third text box. 
+
+Pictured above is the UI for the calculator. It is comprised of three textboxes, one dropdown menu, and one button. The first two textboxes take user input in the form of integers. The dropdown menu (called a ComboBox in UE4) is in between these two text boxes and allows the user to chose one of four mathematical operations to perform on the two numbers. Next, there is a button with an equal sign. When clicked, the answer is displayed on the third textbox. 
 
 ## Development
 The UI for the calculator was created in the 'Designer' section of Widget Blueprints. The functionality was implemented in the 'Graph' section using built-in drag-and-drop functions. To make the blueprints less cluttered, four new functions were also made for each of the four mathematical operations: add, subtract, multiply, and divide. The logic for each of the new functions was:
@@ -16,7 +17,8 @@ The UI for the calculator was created in the 'Designer' section of Widget Bluepr
 
 Pictured below is one of the four functions:
 ![addfunction](https://github.com/jawadefaj/Cruzway-UI/blob/richa/images/addfunction.jpeg)
-Next, comes the Event Graph, which contains the main workflow of the calculator. In the event graph, the four functions are connected to the dropdown menu by the 'Switch on String' built-in function, which is called when the equal button is clicked. Pictured below is the blueprint of the event graph:
+Next, comes the Event Graph, which contains the main workflow of the calculator. In the event graph, the four functions are connected to the dropdown menu by the 'Switch on String' built-in function, which is called when the equal button is clicked. 
+Pictured below is the blueprint of the event graph:
 ![eventgraph](https://github.com/jawadefaj/Cruzway-UI/blob/richa/images/eventgraph.jpeg)
 
 ## Plugin 
