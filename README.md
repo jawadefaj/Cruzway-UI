@@ -24,4 +24,4 @@ Pictured below is the blueprint of the event graph:
 ![eventgraph](https://github.com/jawadefaj/Cruzway-UI/blob/richa/images/eventgraph.jpeg)
 
 ## Plugin
-Plugins are useful as they allow specific tasks to be done on other devices or projects without re-implementing functionality. By making the calculator widget a plugin, other users will be able to use the calculator widget on their own devices. The plugin can be game-level or engine-level, and it must be packaged and enabled before use. The plugin should be added to the 'Plugins' folder of the specific project, and the calculator widget should show up. 
+Plugins are useful as they allow specific tasks to be done on other devices or projects without re-implementing functionality. By making the calculator widget a plugin, other users will be able to use the calculator widget on their own devices. The plugin can be project-level or engine-level, and it must be packaged and enabled before use. The plugin should be added to the 'Plugins' folder of the specific project, and the calculator widget should show up. 
