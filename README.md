@@ -13,6 +13,7 @@ The UI for the calculator was created in the 'Designer' section of Widget Bluepr
 * Convert the text to integers
 * Perform the specific operation on the two integers
 * Convert the result back in to text; display in last textbox
+
 Pictured below is one of the four functions:
 PICTURE HERE
 Next, comes the Event Graph, which contains the main workflow of the calculator. In the event graph, the four functions are connected to the dropdown menu by the 'Switch on String' built-in function, which is called when the equal button is clicked. Pictured below is the blueprint of the event graph:
