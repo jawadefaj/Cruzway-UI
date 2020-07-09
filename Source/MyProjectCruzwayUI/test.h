@@ -7,7 +7,7 @@
 /**
  * 
  */
-class BT_PLUGIN_API test
+class MYPROJECTCRUZWAYUI_API test
 {
 public:
 	test();

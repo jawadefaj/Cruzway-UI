@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class CruzWayBTPlugin : ModuleRules
+public class MyProjectCruzwayUI : ModuleRules
 {
-	public CruzWayBTPlugin(ReadOnlyTargetRules Target) : base(Target)
+	public MyProjectCruzwayUI(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
