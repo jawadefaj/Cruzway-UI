@@ -1,4 +1,4 @@
-/Users/sabita/Downloads/ruru/Cruzway-UI/Calculator/Plugins/Richa_Calculator_Plugin/Intermediate/Build/Mac/UE4Editor/Development/Richa_Calculator_Plugin/Module.Richa_Calculator_Plugin.gen.cpp.o: \
+/Users/sabita/SIP/Cruzway-UI/Calculator/Plugins/Richa_Calculator_Plugin/Intermediate/Build/Mac/UE4Editor/Development/Richa_Calculator_Plugin/Module.Richa_Calculator_Plugin.gen.cpp.o: \
   /Users/Shared/Epic\ Games/UE_4.22/Engine/Source/Runtime/Engine/Public/TextureLayout.h \
   /Users/Shared/Epic\ Games/UE_4.22/Engine/Source/Runtime/Engine/Public/TextureLayout3d.h \
   /Users/Shared/Epic\ Games/UE_4.22/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/SoundWave.generated.h \
@@ -1065,7 +1065,7 @@
   /Users/Shared/Epic\ Games/UE_4.22/Engine/Source/Runtime/Core/Public/CoreTypes.h \
   /Users/Shared/Epic\ Games/UE_4.22/Engine/Source/Runtime/Core/Public/Containers/ContainersFwd.h \
   /Users/Shared/Epic\ Games/UE_4.22/Engine/Source/Runtime/Engine/Public/EngineSharedPCH.h \
-  /Users/sabita/Downloads/ruru/Cruzway-UI/Calculator/Intermediate/Build/Mac/CalculatorEditor/Development/Engine/SharedPCH.Engine.h \
+  /Users/sabita/SIP/Cruzway-UI/Calculator/Intermediate/Build/Mac/CalculatorEditor/Development/Engine/SharedPCH.Engine.h \
   /Volumes/Jazz/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/stddef.h \
   /Volumes/Jazz/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__config \
   /Volumes/Jazz/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include/stddef.h \
@@ -2383,11 +2383,11 @@
   /Volumes/Jazz/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/vm.h \
   /Volumes/Jazz/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/malloc/malloc.h \
   /Volumes/Jazz/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/initializer_list \
-  /Users/sabita/Downloads/ruru/Cruzway-UI/Calculator/Plugins/Richa_Calculator_Plugin/Intermediate/Build/Mac/UE4Editor/Development/Richa_Calculator_Plugin/Module.Richa_Calculator_Plugin.gen.cpp \
-  /Users/sabita/Downloads/ruru/Cruzway-UI/Calculator/Plugins/Richa_Calculator_Plugin/Intermediate/Build/Mac/UE4Editor/Development/Richa_Calculator_Plugin/Definitions.Richa_Calculator_Plugin.h \
-  /Users/sabita/Downloads/ruru/Cruzway-UI/Calculator/Plugins/Richa_Calculator_Plugin/Intermediate/Build/Mac/UE4Editor/Inc/Richa_Calculator_Plugin/Richa_Calculator_Plugin.init.gen.cpp \
+  /Users/sabita/SIP/Cruzway-UI/Calculator/Plugins/Richa_Calculator_Plugin/Intermediate/Build/Mac/UE4Editor/Development/Richa_Calculator_Plugin/Module.Richa_Calculator_Plugin.gen.cpp \
+  /Users/sabita/SIP/Cruzway-UI/Calculator/Plugins/Richa_Calculator_Plugin/Intermediate/Build/Mac/UE4Editor/Development/Richa_Calculator_Plugin/Definitions.Richa_Calculator_Plugin.h \
+  /Users/sabita/SIP/Cruzway-UI/Calculator/Plugins/Richa_Calculator_Plugin/Intermediate/Build/Mac/UE4Editor/Inc/Richa_Calculator_Plugin/Richa_Calculator_Plugin.init.gen.cpp \
   /Users/Shared/Epic\ Games/UE_4.22/Engine/Source/Runtime/CoreUObject/Public/UObject/GeneratedCppIncludes.h \
   /Users/Shared/Epic\ Games/UE_4.22/Engine/Source/Runtime/CoreUObject/Public/UObject/MetaData.h \
-  /Users/sabita/Downloads/ruru/Cruzway-UI/Calculator/Plugins/Richa_Calculator_Plugin/Intermediate/Build/Mac/UE4Editor/Inc/Richa_Calculator_Plugin/Richa_Calculator_PluginBPLibrary.gen.cpp \
-  /Users/sabita/Downloads/ruru/Cruzway-UI/Calculator/Plugins/Richa_Calculator_Plugin/Source/Richa_Calculator_Plugin/Public/Richa_Calculator_PluginBPLibrary.h \
-  /Users/sabita/Downloads/ruru/Cruzway-UI/Calculator/Plugins/Richa_Calculator_Plugin/Intermediate/Build/Mac/UE4Editor/Inc/Richa_Calculator_Plugin/Richa_Calculator_PluginBPLibrary.generated.h
+  /Users/sabita/SIP/Cruzway-UI/Calculator/Plugins/Richa_Calculator_Plugin/Intermediate/Build/Mac/UE4Editor/Inc/Richa_Calculator_Plugin/Richa_Calculator_PluginBPLibrary.gen.cpp \
+  /Users/sabita/SIP/Cruzway-UI/Calculator/Plugins/Richa_Calculator_Plugin/Source/Richa_Calculator_Plugin/Public/Richa_Calculator_PluginBPLibrary.h \
+  /Users/sabita/SIP/Cruzway-UI/Calculator/Plugins/Richa_Calculator_Plugin/Intermediate/Build/Mac/UE4Editor/Inc/Richa_Calculator_Plugin/Richa_Calculator_PluginBPLibrary.generated.h
