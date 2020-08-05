@@ -1,27 +1,25 @@
-# Calculator Plugin: Development and How To Use
+# Projects in this branch
 Richa Bavadekar
 
-This calculator was made as an Editor Utility Widget in Unreal Engine 4.22.3. It's UI and functionality was implemented using Widget Blueprints.
+This Branch contains two projects:
+1. Calculator
+2. AssembleCarUI
 
-## How It Works
-![calcui](https://github.com/jawadefaj/Cruzway-UI/blob/richa/images/calcui.jpeg)
+The Calculator Project also contains the Calculator Plugin, which is located in the 'Plugins' folder in the 'Calculator' project folder
 
-Pictured above is the UI for the calculator. It is comprised of three textboxes, one dropdown menu, and one button. The first two textboxes take user input in the form of integers. The dropdown menu (called a ComboBox in UE4) is in between these twotext boxes and allows the user to chose one of four mathematical operations to perform on the two numbers. Next, there is a button with an equal sign. When clicked, the answer is displayed on the third textbox. 
+Each of these projects have their own READMe.md. Please refer to those for more details about the projects.
 
-## Development
-The UI for the calculator was created in the 'Designer' section of Widget Blueprints. The functionality was implemented in the 'Graph' section using built-in drag-and-drop functions. To make the blueprints less cluttered, four new functions were also made for each of the four mathematical operations: add, subtract, multiply, and divide. The logic for each of the new functions was:
-* Get the user-inputted text from both of the textboxes
-* Convert the text to integers
-* Perform the specific operation on the two integers
-* Convert the result back in to text; display in last textbox
+## How to access Editor Utility Widget
+The Calculator UI and Assemble Car UI are both 'Editor Utility Widgets'. 
+1. First open the Unreal Project
+2. In the Content Browser's Content folder, you will see the 'Editor Utility Widgets'
+3. Calculator's Editor Utility Widget is named 'CalcWidgetTest'
+4. Assemble Car UI's Editor Utility Widget is named 'SimulationUI'
+5. To run the Editor Utility Widget, simply right click on it and click 'Run Editor Utility Widget'
 
-Pictured below is the blueprint of one of the four functions:
-![addfunction](https://github.com/jawadefaj/Cruzway-UI/blob/richa/images/addfunction.jpeg)
+## Calculator Editor Utility Widget
+![calceuw](https://github.com/jawadefaj/Cruzway-UI/blob/richa/images/CalcWidget.jpeg)
 
-Next, comes the Event Graph, which contains the main workflow of the calculator. In the event graph, the four functions are connected to the dropdown menu by the 'Switch on String' built-in function, which is called when the equals button is clicked. 
+## Assemble Car UI Editor Utility Widget
+![assemblecareuw](https://github.com/jawadefaj/Cruzway-UI/blob/richa/images/AssembleCarWidget.jpeg)
 
-Pictured below is the blueprint of the event graph:
-![eventgraph](https://github.com/jawadefaj/Cruzway-UI/blob/richa/images/eventgraph.jpeg)
-
-## Plugin
-Plugins are useful as they allow specific tasks to be done on other devices or projects without re-implementing functionality. By making the calculator widget a plugin, other users will be able to use the calculator widget on their own devices. The plugin can be project-level or engine-level, and it must be packaged and enabled before use. 
