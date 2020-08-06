@@ -7,7 +7,16 @@
 		{
 			"Name": "MyProjectCruzwayUI",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "BT_Plugin",
+			"Enabled": true
 		}
 	]
 }

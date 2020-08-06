@@ -8,9 +8,11 @@ public class MyProjectCruzwayUI : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
-
-		PrivateDependencyModuleNames.AddRange(new string[] {  });
+		// add UnrealEd - module for Kismet functions
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "UnrealEd" });
+		// add this line. Enables us to include header files in blueprintlibrary class
+		// something like this #include "WheeledVehicleObject.h" 
+		PrivateDependencyModuleNames.AddRange(new string[] { "BT_Plugin"  });
 
 		// Uncomment if you are using Slate UI
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
