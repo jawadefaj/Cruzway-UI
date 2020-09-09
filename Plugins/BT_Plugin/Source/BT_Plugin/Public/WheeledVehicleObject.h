@@ -13,5 +13,15 @@ UCLASS()
 class BT_PLUGIN_API AWheeledVehicleObject : public AWheeledVehicle
 {
 	GENERATED_BODY()
+
+private:
+	// Sets default values for this actor's properties
+	AWheeledVehicleObject();
+
+protected:
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
 	
+public:
+
 };
