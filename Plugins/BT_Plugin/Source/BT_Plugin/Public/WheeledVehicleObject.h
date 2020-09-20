@@ -4,6 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "Engine.h"
+#include "WayPoint.h"
+#include "VehicleController.h"
 #include "WheeledVehicle.h"
 #include "WheeledVehicleObject.generated.h"
 
@@ -26,6 +28,11 @@ protected:
 public:
 
 	virtual void Tick(float DeltaTime) override;
+
+	AVehicleController* VehicleAIController;
+
+	UPROPERTY(EditAnywhere)
+	AWayPoint* WayPoint;
 
 
 	void PrintLog(FString Text)

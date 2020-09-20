@@ -8,7 +8,7 @@
 #include "WayPoint.generated.h"
 
 UCLASS()
-class MYPROJECTCRUZWAYUI_API AWayPoint : public AActor
+class BT_PLUGIN_API AWayPoint : public AActor
 {
 	GENERATED_BODY()
 	
