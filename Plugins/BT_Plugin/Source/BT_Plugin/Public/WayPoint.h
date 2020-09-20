@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Engine.h"
 #include "Classes/Components/SplineComponent.h"
 #include "GameFramework/Actor.h"
 #include "WayPoint.generated.h"
@@ -50,4 +51,11 @@ public:
 	int32 twoTimesTotalConnectedSplines = 0; //multiple of 2
 	void calculateCurrentSplineTurnTypes();
 	FString calculateDecalSelection();
+
+
+	void PrintLog(FString Text)
+	{
+		if (!GEngine) return;
+		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, *Text);
+	}
 };

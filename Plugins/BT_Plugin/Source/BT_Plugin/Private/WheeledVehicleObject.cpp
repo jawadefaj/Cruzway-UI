@@ -20,5 +20,5 @@ void AWheeledVehicleObject::BeginPlay()
 void AWheeledVehicleObject::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	PrintLog("Inside vehicle object tick");
+	//PrintLog("Inside vehicle object tick");
 }

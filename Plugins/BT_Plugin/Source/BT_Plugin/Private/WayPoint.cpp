@@ -17,6 +17,7 @@ AWayPoint::AWayPoint()
 void AWayPoint::BeginPlay()
 {
 	Super::BeginPlay();
+	PrintLog("Inside the way point");
 	TotalDistance = SplineComponent->GetSplineLength();
 }
 
