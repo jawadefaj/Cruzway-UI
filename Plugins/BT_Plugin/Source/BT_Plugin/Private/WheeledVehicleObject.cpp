@@ -8,8 +8,17 @@
 AWheeledVehicleObject::AWheeledVehicleObject()
 {
 	PrimaryActorTick.bCanEverTick = true;
+	PrintLog("Inside vehicle object constructor ");
 }
 
 void AWheeledVehicleObject::BeginPlay()
 {
+	Super::BeginPlay();
+	PrintLog("Inside vehicle object beginplay");
+}
+
+void AWheeledVehicleObject::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+	PrintLog("Inside vehicle object tick");
 }

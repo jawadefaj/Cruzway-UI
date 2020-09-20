@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Engine.h"
 #include "WheeledVehicle.h"
 #include "WheeledVehicleObject.generated.h"
 
@@ -24,4 +25,12 @@ protected:
 	
 public:
 
+	virtual void Tick(float DeltaTime) override;
+
+
+	void PrintLog(FString Text)
+	{
+		if (!GEngine) return;
+		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Blue, *Text);
+	}
 };

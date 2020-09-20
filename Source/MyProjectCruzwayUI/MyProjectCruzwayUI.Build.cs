@@ -8,7 +8,7 @@ public class MyProjectCruzwayUI : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "BT_Plugin" });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
