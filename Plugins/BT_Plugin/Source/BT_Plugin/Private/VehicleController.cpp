@@ -75,6 +75,7 @@ bool AVehicleController::InitializeVehicleController(FString BehaviorTreePath, A
 {
 	UBehaviorTree* BehaviorTree = LoadBehaviorTree(BehaviorTreePath);
 	bool IsSetWayPoint = SetWayPoint(WP);
+	PrintLog("Initialize vehicle controller");
 	if (BehaviorTree != NULL && IsSetWayPoint)
 	{
 		InitializeBlackBoard(BehaviorTree);
