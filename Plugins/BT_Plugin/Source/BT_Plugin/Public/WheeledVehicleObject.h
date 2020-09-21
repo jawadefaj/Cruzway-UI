@@ -29,11 +29,20 @@ public:
 
 	virtual void Tick(float DeltaTime) override;
 
-	AVehicleController* VehicleAIController;
+	AVehicleController* VehicleController;
+	FVector VehicleVelocity;
 
 	UPROPERTY(EditAnywhere)
 	AWayPoint* WayPoint;
 
+	UPROPERTY(EditAnywhere)
+	FString BehaviorTreePath;
+
+	bool SelfDestroy();
+
+	bool InitializeWheeledVehicle(FString BehaviorTreePath, AWayPoint* WayPoint);
+
+	void ApplyControlValue(float Throttle, float Steering, float Brake);
 
 	void PrintLog(FString Text)
 	{
