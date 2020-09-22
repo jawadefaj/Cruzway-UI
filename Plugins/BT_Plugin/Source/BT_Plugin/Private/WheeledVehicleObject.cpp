@@ -1,7 +1,8 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#include "WheeledVehicleMovementComponent.h"
+
 #include "WheeledVehicleObject.h"
+#include "WheeledVehicleMovementComponent.h"
 
 
 
@@ -25,11 +26,22 @@ void AWheeledVehicleObject::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	//PrintLog("Inside vehicle object tick");
+
+	UpdateBlackBoard();
+	UpdateControlValue();
+}
+
+void AWheeledVehicleObject::UpdateControlValue()
+{
 	float Throttle = VehicleController->BlackboardComponent->GetValueAsFloat("ThrottleValue");
 	float Brake = VehicleController->BlackboardComponent->GetValueAsFloat("BrakeValue");
 	float Steer = VehicleController->BlackboardComponent->GetValueAsFloat("SteerValue");
-	//PrintLog("Throttle value " + FString::SanitizeFloat(Throttle) + " " + FString::SanitizeFloat(Brake) + " " + FString::SanitizeFloat(Steer));
 	ApplyControlValue(Throttle, Steer, Brake);
+}
+
+void AWheeledVehicleObject::UpdateBlackBoard()
+{
+	VehicleController->BlackboardComponent->SetValueAsVector("VehicleWorldLocation", this->GetActorLocation());
 }
 
 bool AWheeledVehicleObject::SelfDestroy()
@@ -65,5 +77,8 @@ void AWheeledVehicleObject::InitializeBlackBoardValues()
 		PrintLog("Inside Initialize Black Board ");
 		VehicleController->BlackboardComponent->SetValueAsObject("WheeledVehicleMovementComponent", this->GetVehicleMovement());
 		VehicleController->BlackboardComponent->SetValueAsObject("WayPoint", this->WayPoint);
+		VehicleController->BlackboardComponent->SetValueAsVector("VehicleWorldLocation", this->GetActorLocation());
 	}
 }
+
+

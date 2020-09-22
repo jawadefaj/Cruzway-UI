@@ -29,6 +29,8 @@ public:
 
 	virtual void Tick(float DeltaTime) override;
 
+
+
 	AVehicleController* VehicleController;
 	FVector VehicleVelocity;
 
@@ -45,6 +47,10 @@ public:
 	void ApplyControlValue(float Throttle, float Steering, float Brake);
 
 	void InitializeBlackBoardValues();
+
+	void UpdateControlValue();
+
+	void UpdateBlackBoard();
 
 	void PrintLog(FString Text)
 	{

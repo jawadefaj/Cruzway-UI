@@ -58,3 +58,13 @@ FString AWayPoint::calculateDecalSelection()
 	}
 }
 
+float AWayPoint::GetDistanceAlongSpline(FVector WorldLocation)
+{
+	auto InputKeyFloat = SplineComponent->FindInputKeyClosestToWorldLocation(WorldLocation);
+	auto InputKey = FMath::TruncToInt(InputKeyFloat);
+	auto A = SplineComponent->GetDistanceAlongSplineAtSplinePoint(InputKey);
+	auto B = SplineComponent->GetDistanceAlongSplineAtSplinePoint(InputKey + 1);
+
+	return A + ((B - A) * (InputKeyFloat - InputKey));
+}
+

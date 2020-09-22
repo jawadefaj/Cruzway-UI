@@ -37,6 +37,7 @@ public:
 	void StartBehaviorTree(UBehaviorTree* BehaviorTree);
 	bool InitializeVehicleController(FString BehaviorTreePath, AWayPoint* WP);
 
+
 	void PrintLog(FString Text)
 	{
 		if (!GEngine) return;
