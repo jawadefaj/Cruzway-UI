@@ -44,6 +44,8 @@ public:
 
 	void ApplyControlValue(float Throttle, float Steering, float Brake);
 
+	void InitializeBlackBoardValues();
+
 	void PrintLog(FString Text)
 	{
 		if (!GEngine) return;

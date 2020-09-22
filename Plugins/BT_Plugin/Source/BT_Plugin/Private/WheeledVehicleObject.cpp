@@ -1,23 +1,24 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-
-#include "WheeledVehicleObject.h"
 #include "WheeledVehicleMovementComponent.h"
+#include "WheeledVehicleObject.h"
+
 
 
 //runs first Tick when simulate
 AWheeledVehicleObject::AWheeledVehicleObject()
 {
 	PrimaryActorTick.bCanEverTick = true;
-	PrintLog("Inside vehicle object constructor ");
+	//PrintLog("Inside vehicle object constructor ");
 }
 
 void AWheeledVehicleObject::BeginPlay()
 {
 	Super::BeginPlay();
-	PrintLog("Inside vehicle object beginplay");
+	//PrintLog("Inside vehicle object beginplay");
 	VehicleController = GetController<AVehicleController>();
 	InitializeWheeledVehicle(BehaviorTreePath, WayPoint);
+	InitializeBlackBoardValues();
 }
 
 void AWheeledVehicleObject::Tick(float DeltaTime)
@@ -39,7 +40,7 @@ bool AWheeledVehicleObject::SelfDestroy()
 
 bool AWheeledVehicleObject::InitializeWheeledVehicle(FString BehaviorTreePath, AWayPoint* WayPoint)
 {
-	PrintLog("Initialize Wheeled Vehicle ");
+	//PrintLog("Initialize Wheeled Vehicle ");
 	if (VehicleController != NULL)
 	{
 		VehicleController->InitializeVehicleController(BehaviorTreePath, WayPoint);
@@ -54,4 +55,15 @@ void AWheeledVehicleObject::ApplyControlValue(float Throttle, float Steering, fl
 	this->GetVehicleMovement()->SetBrakeInput(Brake);
 	this->GetVehicleMovement()->SetThrottleInput(Throttle);
 	this->GetVehicleMovement()->SetSteeringInput(Steering);
+}
+
+void AWheeledVehicleObject::InitializeBlackBoardValues()
+{
+	
+	if (VehicleController != NULL)
+	{
+		PrintLog("Inside Initialize Black Board ");
+		VehicleController->BlackboardComponent->SetValueAsObject("WheeledVehicleMovementComponent", this->GetVehicleMovement());
+		VehicleController->BlackboardComponent->SetValueAsObject("WayPoint", this->WayPoint);
+	}
 }
