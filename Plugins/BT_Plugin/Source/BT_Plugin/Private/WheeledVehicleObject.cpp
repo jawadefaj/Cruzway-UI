@@ -27,7 +27,7 @@ void AWheeledVehicleObject::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 	//PrintLog("Inside vehicle object tick");
 
-	UpdateBlackBoard();
+	UpdateBlackBoard(DeltaTime);
 	UpdateControlValue();
 }
 
@@ -39,9 +39,11 @@ void AWheeledVehicleObject::UpdateControlValue()
 	ApplyControlValue(Throttle, Steer, Brake);
 }
 
-void AWheeledVehicleObject::UpdateBlackBoard()
+void AWheeledVehicleObject::UpdateBlackBoard(float Delta)
 {
 	VehicleController->BlackboardComponent->SetValueAsVector("VehicleWorldLocation", this->GetActorLocation());
+	VehicleController->BlackboardComponent->SetValueAsFloat("TimeDelta", Delta);
+	VehicleController->BlackboardComponent->SetValueAsVector("VehicleVelocity", this->GetVelocity());
 }
 
 bool AWheeledVehicleObject::SelfDestroy()

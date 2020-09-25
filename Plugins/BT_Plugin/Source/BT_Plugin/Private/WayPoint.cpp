@@ -18,6 +18,7 @@ void AWayPoint::BeginPlay()
 {
 	Super::BeginPlay();
 	PrintLog("Inside");
+	SplineComponent->bDrawDebug = true;
 	TotalDistance = SplineComponent->GetSplineLength();
 }
 

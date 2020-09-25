@@ -50,7 +50,7 @@ public:
 
 	void UpdateControlValue();
 
-	void UpdateBlackBoard();
+	void UpdateBlackBoard(float Delta);
 
 	void PrintLog(FString Text)
 	{

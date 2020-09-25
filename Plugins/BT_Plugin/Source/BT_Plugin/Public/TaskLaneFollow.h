@@ -6,6 +6,7 @@
 #include "BehaviorTree/Tasks/BTTask_BlackboardBase.h"
 #include "Engine.h"
 #include "WayPoint.h"
+#include "VehicleController.h"
 #include "TaskLaneFollow.generated.h"
 
 /**
@@ -17,8 +18,8 @@ class BT_PLUGIN_API UTaskLaneFollow : public UBTTask_BlackboardBase
 	GENERATED_BODY()
 	virtual EBTNodeResult::Type ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory) override;
 
-	float UpdatedSteeringValue(AWayPoint* WayPoint, float Delta);
-	float UpdatedThrottleValue();
+	float UpdatedSteeringValue(AVehicleController* VehicleController);
+	float UpdatedThrottleValue(AVehicleController* VehicleController);
 
 
 	void PrintLog(FString Text)
